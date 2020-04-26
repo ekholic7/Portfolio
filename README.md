@@ -1,2 +1,4 @@
-# homework_2
-CSS and BootStrap
+Portfolio
+
+Updated portfolio page using HTML, CSS, Bootstrap, & JavaScript. 
+Please visit deployed page at 
