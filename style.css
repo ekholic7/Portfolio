@@ -14,24 +14,29 @@ body {
 }
 
 .collapse {
-    margin-left: 1250px;
+    margin-left: 25px;
 }
 
 .aboutMe img {
-    max-width: 250px;
+    max-width: 300px;
     float: left;
     margin-right: 20px;
 }
 
 .jumbotron {
     background-color: #fefdfa;
-    margin: 85px;
-    padding: 20px 20px 40px 20px;
+    margin: 100px;
+    padding: 80px 140px 80px 140px;
     
 }
 
 footer {
     text-align: center;
     background-color: #fefdfa;
-    padding: 25px;
+    padding: 10px;
+    /* width: 100%; */
+}
+
+footer .socialMedia, p {
+    padding-top: 5px;
 }

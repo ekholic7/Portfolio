@@ -6,12 +6,15 @@
     <title>Esther Kwon Porfolio</title>
     <!-- BootStrap Documnetation -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   <!-- custom css -->
     <link rel="stylesheet" href="style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <!-- navigation bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Esther Kwon</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light col-lg-12">
+        <a class="navbar-brand" href="./index.html">Esther Kwon</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -21,36 +24,67 @@
               <a class="nav-link" href="./index.html">About <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item portfolio">
-              <a class="nav-link" href="./porfolio.html">Porfolio</a>
+              <a class="nav-link" href="./porfolio.html">Portfolio</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="./contact.html">Contact</a>
               </li>
+            <li class="nav-item">
+              <a class="nav-link" href="" onClick="window.open('estherkwon_resume.pdf')">Resume</a>
+            </li>
           </ul>
         </div>
       </nav>
 
       <!-- main content -->
-      <main class="jumbotron jumbotron-fluid">
-        <main class="container aboutMe">
+      <main class="jumbotron jumbotron-fluid row">
+        <main class="container aboutMe col-lg-12 col-md-12 col-sm-12">
           <h1 class="display-4">About Me</h1>
           <hr>
           <br>  
-          <img src="./Images/99F5AA31-41A3-4005-967B-921B90D0A3FF.JPG" alt="selfie">
-          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam consequuntur labore ad, atque fugit ullam nostrum? Nobis, sunt reiciendis ex in eos doloribus quo. Aliquam voluptas mollitia autem ea ratione.
-            Atque nesciunt doloribus cum, minima cupiditate architecto repudiandae, rerum dolore mollitia libero voluptates consequatur beatae nihil velit odio aut molestias! Tenetur illum consequatur libero. Nihil praesentium sapiente blanditiis eius voluptas.
-            Distinctio, exercitationem facilis. Tempore doloremque enim porro ipsa temporibus? Voluptate accusantium, id ratione culpa sint quas totam doloribus facilis quod quo suscipit eligendi fuga deleniti iusto, nihil, porro quis nisi.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nulla nemo ipsum qui ex officia natus adipisci explicabo incidunt, placeat illum delectus quisquam atque nisi accusamus possimus velit doloremque minus.
-            Nemo quaerat sapiente repellat fuga fugiat, ea vero voluptatibus eveniet. Expedita consectetur excepturi minima corporis hic, quam, qui saepe sed ratione nesciunt error at assumenda magnam ducimus? Laboriosam, consequatur perspiciatis.
-            Ratione mollitia dicta beatae aspernatur accusantium perferendis ad reiciendis neque assumenda praesentium, ipsum nobis suscipit, explicabo veritatis similique nesciunt quasi sint pariatur sequi laborum fugit, nemo optio. Ipsam, excepturi voluptatum!
+          <img src="./Images/99F5AA31-41A3-4005-967B-921B90D0A3FF.JPG" alt="selfie" class="col-sm-4">
+          <p class="lead">I'm a Atlanta based web developer, game enthusiast, and who has a background in photography loves to create interesting, yet effective web applications for companies of all different sizes around the world. 
+          <br>
+          <br>
+          A full stack developer that has a passion in creating responsive and interactive UI/UX design. I am skilled in designing and developing code from the bottom up. Diligent to follow the industries standards and following the trends of recent technologies. Outside of the technical aspect, I enjoy playing all genres of games and outdoor activities. 
           </p>
-        </main>
+          <br>
+      </main>
     </main>
 
     <!-- footer -->
-    <footer>
-        <small>&copy; Copyright 2020, Esther Kwon</small>
+    <footer class="container-fluid">
+      <section class="row">
+        <section class="socialMedia col-xl-12 col-lg-12 col-md-12 col-sm-12">
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item">
+             <a class="btn btn-outline-dark btn-social text-center rounded-circle" href="https://www.linkedin.com/in/esther-kwon-989433165/">
+              <i class="fa fa-fw fa-linkedin"></i>
+             </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn btn-outline-dark btn-social text-center rounded-circle" href="https://www.instagram.com/ekholic_7/?hl=en">
+              <i class="fa fa-fw fa-instagram"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn btn-outline-dark btn-social text-center rounded-circle" href="https://www.pinterest.com/esther008123/">
+              <i class="fa fa-fw fa-pinterest"></i>
+              </a>
+           </li>
+           <li class="list-inline-item">
+              <a class="btn btn-outline-dark btn-social text-center rounded-circle" href="https://github.com/ekholic7">
+              <i class="fa fa-fw fa-github"></i>
+              </a>
+           </li>
+          </ul>
+          <p><small>&copy; Copyright 2020, Esther Kwon</small></p>
+      </section>
+    </section>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 
 </body>
 </html>
